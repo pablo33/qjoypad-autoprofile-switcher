@@ -29,4 +29,4 @@ Once installed, you must open de code and configure with your needs.
 
 to run the code just type:  
 
-    $python3 qjoypad-autoprofile-switcher.py
+    python3 qjoypad-autoprofile-switcher.py
