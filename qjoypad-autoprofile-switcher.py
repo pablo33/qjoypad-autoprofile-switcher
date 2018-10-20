@@ -72,6 +72,7 @@ if __name__ == '__main__':
 					cmdline = ' '.join([qjoypad,selectprofile]) + ' &'
 					os.system (cmdline)
 					#print ('Changed qjoypad profile: {}'.format(cmdline))
+					time.sleep (sleepseconds)
 		else:
 			#print ('No joystick is attached.')
 			if getappstatus ([qjoypad]) and Shutdownqjoypad:
